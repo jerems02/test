@@ -5,6 +5,48 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/src/assets/i18n/*.json
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
 # Runtime data
 pids
 *.pid
@@ -26,24 +68,11 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
-# node-waf configuration
-.lock-wscript
-
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
 
 # TypeScript v1 declaration files
 typings/
