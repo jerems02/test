@@ -35,7 +35,15 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-.idea/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # TypeScript v1 declaration files
 typings/
